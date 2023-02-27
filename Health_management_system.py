@@ -1,5 +1,4 @@
 import datetime
-
 def exercise():
     print("Enter the exercise completed by {}:".format(name))
     ex= input()
@@ -72,6 +71,7 @@ def diet():
         print("Diet data entered successfully!!")
     else:
         pass 
+
 def get_diet_data():
     try:
         if(get==1):
